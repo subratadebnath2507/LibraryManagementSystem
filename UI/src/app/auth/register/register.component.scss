@@ -1,0 +1,29 @@
+:host{  
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 90%;
+}
+
+.register-form{
+    width: 600px;
+    border: 1px solid black;
+}
+
+.library-info{
+    width: 400px;
+    padding: 1rem;
+    border-left: 1px solid black;
+
+    mat-list-item{
+        height: auto;
+
+        p{
+            font-size: 14px;
+            font-style: italic;
+            text-align: justify;
+            white-space: normal;
+        }
+    
+    }
+}
